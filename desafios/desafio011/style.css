@@ -45,7 +45,6 @@
 #parte_dois {
     background-image: url(imagens/background001.jpg);
     height: 1200px;
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,12 +83,32 @@
 #parte_quatro {
     background-image: url(imagens/background002.jpg);
     height: 1200px;
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#parte_quatro > article {
+    display: flex;
+    position: relative;
+    background-color: #00000041;
+    width: 650px;
+    height: 700px;
+    margin-left: 40px;
+    top: 220px;
+    border-radius: 10px;
+}
+
+#parte_quatro article > p {
+    display: flex;
+    position: absolute;
+    color: #ffffff;
+    padding-top: 75px;
+    margin-left: 65px;
+}
+
+
 
 footer {
     background-color: #000000;
