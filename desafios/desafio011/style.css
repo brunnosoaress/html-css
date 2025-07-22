@@ -25,10 +25,16 @@
     letter-spacing: -1px;
 }
 
-#autor {
-    padding-bottom: 80px;
+#cabecalho > a {
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
+    margin-left: 46.5%;
+    text-decoration: none;
+}
+
+#cabecalho a:hover {
+    text-decoration: underline;
 }
 
 .fonte_texto {
@@ -108,7 +114,16 @@
     margin-left: 65px;
 }
 
+#parte_cinco {
+    margin-left: 100px;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
 
+#parte_seis {
+    margin-left: 100px;
+    margin-bottom: 170px;
+}
 
 footer {
     background-color: #000000;
